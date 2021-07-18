@@ -14,22 +14,22 @@ body {
   flex-direction: column;
 }
 
-.header-top{
+.header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header-top-left{
+.header-top-left {
   display: flex;
   align-items: center;
 }
 
-.logo-container{
+.logo-container {
   padding: 10px 30px 0px;
 }
 
-.logo{
+.logo {
   width: 92px;
   height: 30px;
 }
@@ -58,9 +58,9 @@ body {
   padding-right: 35px;
 }
 
-.mic-icon-container{
+.mic-icon-container {
   padding: 8px 20px 0px 10px;
-  border-left: 1px solid #DFE1E5;
+  border-left: 1px solid #dfe1e5;
   border-radius: 2px;
 }
 
@@ -69,7 +69,7 @@ body {
   height: 18px;
 }
 
-.search-icon-container{
+.search-icon-container {
   padding: 10px 0px 10px 0px;
 }
 
@@ -84,7 +84,6 @@ body {
   padding: 10px 30px;
 }
 
-
 .nav-google-item {
   display: inline-block;
   padding: 0px 0px 0px 15px;
@@ -92,25 +91,25 @@ body {
   color: #000000de;
 }
 
-.header-bottom-container{
+.header-bottom-container {
   padding: 0px 0px 0px 170px;
   width: 830px;
 }
 
-.header-bottom{
+.header-bottom {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-  color: #86898D;
+  color: #86898d;
 }
 
-.nav-search{
+.nav-search {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.nav-search-item{
+.nav-search-item {
   display: flex;
   text-decoration: none;
   color: inherit;
@@ -118,13 +117,13 @@ body {
   padding-bottom: 10px;
 }
 
-.nav-search-icon{
+.nav-search-icon {
   font-size: 120%;
   padding-right: 3px;
 }
 
-.current-item{
-  color: #1A73EA;
+.current-item {
+  color: #1a73ea;
   border-bottom: 3px solid;
   padding-left: 0px;
 }
@@ -133,9 +132,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 1px solid #DFE1E5;
+  border-top: 1px solid #dfe1e5;
 }
-
 
 .footer {
   position: absolute;
@@ -150,8 +148,35 @@ body {
 
 .footer-top {
   display: flex;
-  padding: 23px 0px 15px 160px;
+  align-items: center;
+  padding: 23px 0px 10px 160px;
   border-bottom: 1px solid rgb(218, 220, 224);
+}
+
+.footer-top-country {
+  display: inline-block;
+  line-height: 27px;
+  height: 27px;
+  border-right: 1px solid #dfe1e5;
+  padding-right: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 20px;
+  border-radius: 50%;
+  background-color: #70757A;
+}
+
+.location{
+  font-weight: bold;
+  color: #3C4043;
+}
+
+.footer-top-item{
+  padding-left: 3px;
 }
 
 .footer-bottom {
@@ -164,7 +189,7 @@ body {
   padding-bottom: 12px;
 }
 
-.link-footer-top{
+.link-footer-top {
   text-decoration: none;
   color: inherit;
 }
