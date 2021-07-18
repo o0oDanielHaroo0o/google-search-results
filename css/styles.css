@@ -6,7 +6,7 @@ body {
   position: relative;
   /* padding-bottom: 10vh; */
   min-height: 100vh;
-  font-family: arial, sans-serif;
+  font-family: sans-serif;
 }
 
 .header {
@@ -129,10 +129,12 @@ body {
 }
 
 .main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border-top: 1px solid #dfe1e5;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
 }
 
 .footer {
@@ -167,15 +169,15 @@ body {
   height: 10px;
   margin-left: 20px;
   border-radius: 50%;
-  background-color: #70757A;
+  background-color: #70757a;
 }
 
-.location{
+.location {
   font-weight: bold;
-  color: #3C4043;
+  color: #3c4043;
 }
 
-.footer-top-item{
+.footer-top-item {
   padding-left: 3px;
 }
 
