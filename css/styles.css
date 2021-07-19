@@ -138,6 +138,7 @@ body {
   padding-left: 170px;
   width: 800px;
   color: #202124;
+  font-size: 14px;
 }
 
 .link{
@@ -150,23 +151,17 @@ body {
 
 .results{
   color: #70757a;
-  font-size: 14px;
   height: 43px;
   line-height: 43px;
 }
 
 .suggestions{
-  font-size: 14px;
   margin: 7px 0px 17px;
 }
 
 .result-top{
   display: flex;
   align-items: center;
-}
-
-.top-url, .translate{
-  font-size: 14px;
 }
 
 .top-url-google{
@@ -181,6 +176,17 @@ body {
   border-right: 4.3px solid transparent;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.result-title{
+  margin: 8px 0;
+  font-size: 20px;
+}
+
+.result-summary{
+  margin-bottom: 40px;
+  color: #4d5156;
+  line-height: 22.12px;
 }
 
 .footer {
