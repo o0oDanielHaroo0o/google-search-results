@@ -88,7 +88,7 @@ body {
   display: inline-block;
   padding: 0px 0px 0px 15px;
   text-decoration: none;
-  color: #000000de;
+  color: #5F6368;;
 }
 
 .header-bottom-container {
@@ -100,7 +100,7 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-  color: #86898d;
+  color: #5F6368;
 }
 
 .nav-search {
@@ -135,6 +135,52 @@ body {
 .main-content{
   display: flex;
   flex-direction: column;
+  padding-left: 170px;
+  width: 800px;
+  color: #202124;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.results{
+  color: #70757a;
+  font-size: 14px;
+  height: 43px;
+  line-height: 43px;
+}
+
+.suggestions{
+  font-size: 14px;
+  margin: 7px 0px 17px;
+}
+
+.result-top{
+  display: flex;
+  align-items: center;
+}
+
+.top-url, .translate{
+  font-size: 14px;
+}
+
+.top-url-google{
+  color: #5f6368;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-top: 5.3px solid #70757A;
+  border-left: 4.3px solid transparent;
+  border-right: 4.3px solid transparent;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .footer {
@@ -151,7 +197,7 @@ body {
 .footer-top {
   display: flex;
   align-items: center;
-  padding: 23px 0px 10px 160px;
+  padding: 23px 0px 10px 170px;
   border-bottom: 1px solid rgb(218, 220, 224);
 }
 
@@ -187,7 +233,7 @@ body {
   justify-content: space-between;
   align-content: center;
   font-size: 14px;
-  padding-left: 160px;
+  padding-left: 154px;
   padding-bottom: 12px;
 }
 
