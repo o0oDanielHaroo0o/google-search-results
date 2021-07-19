@@ -4,7 +4,7 @@
 
 body {
   position: relative;
-  /* padding-bottom: 10vh; */
+  padding-bottom: 119px;
   min-height: 100vh;
   font-family: sans-serif;
 }
@@ -159,6 +159,10 @@ body {
   margin: 7px 0px 17px;
 }
 
+.result-container{
+  margin-bottom: 40px;
+}
+
 .result-top{
   display: flex;
   align-items: center;
@@ -184,9 +188,12 @@ body {
 }
 
 .result-summary{
-  margin-bottom: 40px;
   color: #4d5156;
   line-height: 22.12px;
+}
+
+.result-subtitle{
+  color: #70757a;
 }
 
 .footer {
