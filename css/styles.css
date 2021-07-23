@@ -103,7 +103,7 @@ body {
   color: #5F6368;
 }
 
-.nav-search, .related-search {
+.nav-search, .related-search, .pages {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -242,6 +242,28 @@ body {
 .related-link, .related-link:visited{
   padding-left: 15px;
   color: #202124;
+}
+
+.pages{
+  flex-direction: column;
+  margin: 40px 0px;
+}
+
+.pages-numbers{
+  padding-left: 70px;
+}
+
+.pages-number{
+  display: inline-block;
+  width: 16px;
+}
+
+.pages-link, .pages-link:visited{
+  color: #4285f4;
+}
+
+.next-page{
+  padding-left: 50px;
 }
 
 .footer {
