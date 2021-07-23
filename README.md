@@ -1,2 +1,3 @@
 # google-search-results
-The Odin Project
+HTML/CSS project, proposed by The Odin Project
+Hard Version: Build google search results page

@@ -4,6 +4,7 @@
 
 body {
   position: relative;
+  padding-top: 95px;
   padding-bottom: 119px;
   min-height: 100vh;
   font-family: sans-serif;
@@ -15,9 +16,14 @@ body {
 }
 
 .header-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #fff;
 }
 
 .header-top-left {
@@ -110,6 +116,7 @@ body {
 }
 
 .nav-search-item {
+  display: flex;
   text-decoration: none;
   color: inherit;
   padding-left: 20px;
